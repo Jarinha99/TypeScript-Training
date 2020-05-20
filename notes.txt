@@ -1,0 +1,91 @@
+ --------- Anotações do Curso.
+
+
+--------- Introdução
+-- Instalação
+
+- npm i -g typescript
+
+-- Iniciando arquivo de configuração de transpilação
+
+- tsc --init
+
+-- Principais pontos extras do TS para o JS:
+
+    - Fortemente tipado
+    - Generics
+    - Decorators
+    - Enums
+    - Interfaces
+    - Namespaces
+
+-- Como ocorre por trás?
+
+- Todo o TS é traduzido para uma versão de JS, e isso é configurado, é possível apontar 
+qual a versão de JS do codigo transpilado no final.
+
+--------- Tipos ()
+
+Anotações diretamente nos exercícios no arquivo types/types.ts
+
+--------- Compilador
+
+-- Transpilar arquivo em js.
+
+- tsc <FilePath>
+
+-- Para rodar TS diretamente.
+
+- Instalar a biblioteca ts-node
+- npm i -g ts-node
+
+-- Ativar watcher do TS para transpilar automaticamente a qualquer mudança
+
+- tsc -w
+
+-- Servidor com auto-reload bem útil - live-server
+
+- npm i -s live-server
+
+-- Proibir compilador transpilar com erros
+
+- "noEmitOnError": true
+
+-- Gerar arquivos .map
+
+- É um mapeamento entre o arquivo js e o TS que gerou ele, com o map gerado, 
+é possível depurar no browser diretamente no arquivo ts.
+
+- "sourceMap": true,
+
+-- Tirar erro gerado ao ter propriedade com any implícita
+
+- Pode ser útil em uma migração de um projeto de JS -> TS
+
+- "noImplicitAny": false
+
+-- Alertar por situações com possíveis nulos em alguma variável (já é Default)
+
+- "strictNullChecks": true
+
+-- Reportar erro sobre parâmetros não usados
+
+- Muito útil sempre.
+
+- "noUnusedParameters": true
+
+-- Reportar erro sobre variáveis não utilizadas
+
+- Muito útil sempre.
+
+- "noUnusedLocals": true
+
+-- Gerenciar pasta de saída
+
+- "outDir": <DestinyPath>
+
+-- Gerar um único arquivo com todo o JS gerado.
+
+- "outFile": <DestinyPath>
+
+-- 

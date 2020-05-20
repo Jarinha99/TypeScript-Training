@@ -1,0 +1,22 @@
+{
+  "name": "typescriptexample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jarinha99/TypeScriptExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jarinha99/TypeScriptExample/issues"
+  },
+  "homepage": "https://github.com/Jarinha99/TypeScriptExample#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
