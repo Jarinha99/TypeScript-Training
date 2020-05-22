@@ -91,7 +91,7 @@ class RealABC implements ABC {
   c(): void {}
 }
 
-let test = (b: B) => {};
+let test = (b: B) => console.log(b);
 test(new RealABC());
 
 abstract class abstractClassABD implements A, B {
