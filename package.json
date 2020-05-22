@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Jarinha99/TypeScriptExample#readme",
   "dependencies": {
-    "live-server": "^1.2.1"
+    "@types/node": "^14.0.4",
+    "live-server": "^1.2.1",
+    "systemjs": "^0.21.6"
   }
 }
