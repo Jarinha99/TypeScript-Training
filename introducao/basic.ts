@@ -1,2 +1,2 @@
-let a: string = 'Testint TS.'
-console.log(a)
+let a: string = "Testint TS.";
+console.log(a);
