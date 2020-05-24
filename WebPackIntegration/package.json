@@ -1,0 +1,24 @@
+{
+  "name": "WebPackIntegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jquery": "^3.3.38",
+    "copy-webpack-plugin": "^6.0.1",
+    "jquery": "^3.5.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
