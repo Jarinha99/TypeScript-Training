@@ -1,4 +1,4 @@
-# TypeScriptExample
+# TypeScript-Training
 
 ### Repository created to do this Udemy course (PT-BR): https://www.udemy.com/course/typescript-pt/
 
