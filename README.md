@@ -14,4 +14,4 @@
 
 ### VueIntegration folder has a project with Chapter 14.
 
-### Course Complete.
+### Course finished.
